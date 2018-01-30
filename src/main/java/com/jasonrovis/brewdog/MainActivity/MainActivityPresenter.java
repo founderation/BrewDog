@@ -83,17 +83,10 @@ public class MainActivityPresenter {
 
     public void setUpRecyclerView () {
 
-        orderBeers();
+        beers.sort(comparator);
 
         mainActivity.loadRecyclerFragment();
     }
-
-    public void orderBeers () {
-
-        beers.sort(comparator);
-
-    }
-
 
     public interface BeersDownloadedListener {
         void success(Boolean success, ArrayList<Beer> matchingBeers, Boolean fromSharedPref);
