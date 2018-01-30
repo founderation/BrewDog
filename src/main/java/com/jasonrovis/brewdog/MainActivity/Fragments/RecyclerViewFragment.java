@@ -77,7 +77,7 @@ public class RecyclerViewFragment extends Fragment {
 
         MainActivity mainActivity = (MainActivity)getActivity();
 
-        BeerAdapter adapter = new BeerAdapter(mainActivity.getPresenter().getBeers(),mainActivity);
+        BeerAdapter adapter = new BeerAdapter(mainActivity.getPresenter().getBeers(), mainActivity);
 
         recyclerView.setAdapter(adapter);
 
