@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BrewDog</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="launch_message">Combine your meal with the best beer</string>
+    <string name="error">Not available to reach the server. Please check your internet connection or the type of food you type</string>
+    <string name="no_beers_message">There are no matching beers for the following type of food:</string>
+
+</resources>
